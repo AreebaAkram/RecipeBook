@@ -1,0 +1,14 @@
+# Project exclude paths
+/project/.gradle/
+/project/app/build/
+/project/build/
+.gradle/
+.idea/
+build/
+*/build/
+
+local.properties
+*.iml
+*.apk
+*.aab
+.DS_Store

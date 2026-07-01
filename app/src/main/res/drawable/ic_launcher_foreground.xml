@@ -1,0 +1,241 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- CHEF HAT — top puff (3 rounded cloud bumps) -->
+    <!-- ══════════════════════════════════════════ -->
+    <!-- Centre puff -->
+    <path
+        android:fillColor="#FFFDF7"
+        android:pathData="
+        M54,14
+        C46,14 40,20 40,28
+        C40,34 43,39 48,41
+        L60,41
+        C65,39 68,34 68,28
+        C68,20 62,14 54,14 Z"/>
+    <!-- Left puff -->
+    <path
+        android:fillColor="#FFFDF7"
+        android:pathData="
+        M42,28
+        C36,26 30,31 31,38
+        C32,43 37,45 42,44
+        L48,44
+        C44,40 40,35 42,28 Z"/>
+    <!-- Right puff -->
+    <path
+        android:fillColor="#FFFDF7"
+        android:pathData="
+        M66,28
+        C72,26 78,31 77,38
+        C76,43 71,45 66,44
+        L60,44
+        C64,40 68,35 66,28 Z"/>
+    <!-- Hat brim (rounded rect via path) -->
+    <path
+        android:fillColor="#FFFDF7"
+        android:pathData="
+        M38,44
+        L70,44
+        C72,44 74,46 74,48
+        L74,54
+        C74,56 72,58 70,58
+        L38,58
+        C36,58 34,56 34,54
+        L34,48
+        C34,46 36,44 38,44 Z"/>
+    <!-- Hat red band -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="
+        M34,51 L74,51 L74,55 L34,55 Z"/>
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- BOOK BODY                                  -->
+    <!-- ══════════════════════════════════════════ -->
+    <!-- Book cover (rounded rect) -->
+    <path
+        android:fillColor="#EF9F27"
+        android:pathData="
+        M28,60
+        C28,58 30,56 32,56
+        L76,56
+        C78,56 80,58 80,60
+        L80,90
+        C80,92 78,94 76,94
+        L32,94
+        C30,94 28,92 28,90 Z"/>
+    <!-- Book spine -->
+    <path
+        android:fillColor="#C47F1A"
+        android:pathData="
+        M28,60
+        C28,58 30,56 32,56
+        L38,56
+        L38,94
+        L32,94
+        C30,94 28,92 28,90 Z"/>
+    <!-- Spine stitch line -->
+    <path
+        android:strokeColor="#FFFDF7"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:pathData="M33,62 L33,66 M33,70 L33,74 M33,78 L33,82 M33,86 L33,90"/>
+    <!-- Book ruled lines -->
+    <path
+        android:strokeColor="#FFFDF7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,66 L76,66"/>
+    <path
+        android:strokeColor="#FFFDF7"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,73 L74,73"/>
+    <path
+        android:strokeColor="#FFFDF7"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,80 L75,80"/>
+    <path
+        android:strokeColor="#FFFDF7"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,87 L72,87"/>
+    <!-- Fork icon on cover -->
+    <path
+        android:strokeColor="#FFFDF7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M58,62 L58,68 M56,62 L56,65 C56,67 60,67 60,65 L60,62"/>
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- HOLLY — top left                           -->
+    <!-- ══════════════════════════════════════════ -->
+    <!-- Leaf 1 -->
+    <path
+        android:fillColor="#1D9E75"
+        android:pathData="
+        M18,28
+        C14,22 20,14 26,18
+        C30,20 28,28 22,28
+        C20,28 18,28 18,28 Z"/>
+    <!-- Leaf 2 -->
+    <path
+        android:fillColor="#1D9E75"
+        android:pathData="
+        M26,18
+        C30,12 38,16 36,22
+        C34,26 26,26 24,22
+        C23,20 24,18 26,18 Z"/>
+    <!-- Berry 1 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="
+        M24,16
+        C24,13 28,13 28,16
+        C28,19 24,19 24,16 Z"/>
+    <!-- Berry 2 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="
+        M29,13
+        C29,10.5 33,10.5 33,13
+        C33,15.5 29,15.5 29,13 Z"/>
+    <!-- Berry 3 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="
+        M19,20
+        C19,17.5 23,17.5 23,20
+        C23,22.5 19,22.5 19,20 Z"/>
+    <!-- Berry shines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+        M25,14.5
+        C25,13.8 26,13.8 26,14.5
+        C26,15.2 25,15.2 25,14.5 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+        M30,11.5
+        C30,10.8 31,10.8 31,11.5
+        C31,12.2 30,12.2 30,11.5 Z"/>
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- STAR — top right                           -->
+    <!-- ══════════════════════════════════════════ -->
+    <path
+        android:fillColor="#EF9F27"
+        android:pathData="
+        M88,18
+        L89.5,22.5 L94,22.5
+        L90.5,25.5 L92,30
+        L88,27 L84,30
+        L85.5,25.5 L82,22.5
+        L86.5,22.5 Z"/>
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- SMALL STAR — bottom left                   -->
+    <!-- ══════════════════════════════════════════ -->
+    <path
+        android:fillColor="#9B72CF"
+        android:pathData="
+        M20,82
+        L21,85 L24,85
+        L22,87 L23,90
+        L20,88 L17,90
+        L18,87 L16,85
+        L19,85 Z"/>
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- STEAM SWIRLS above book                    -->
+    <!-- ══════════════════════════════════════════ -->
+    <path
+        android:strokeColor="#9B72CF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M46,55 C44,50 48,46 46,42"/>
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,55 C52,49 56,45 54,40"/>
+    <path
+        android:strokeColor="#1D9E75"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M62,55 C60,50 64,46 62,42"/>
+
+    <!-- ══════════════════════════════════════════ -->
+    <!-- DECORATIVE DOTS                            -->
+    <!-- ══════════════════════════════════════════ -->
+    <path
+        android:fillColor="#EF9F27"
+        android:pathData="M84,60 C84,57.8 86,57.8 86,60 C86,62.2 84,62.2 84,60 Z"/>
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M86,70 C86,68.3 88,68.3 88,70 C88,71.7 86,71.7 86,70 Z"/>
+    <path
+        android:fillColor="#1D9E75"
+        android:pathData="M20,70 C20,68.3 22,68.3 22,70 C22,71.7 20,71.7 20,70 Z"/>
+    <path
+        android:fillColor="#9B72CF"
+        android:pathData="M20,80 C20,78.3 22,78.3 22,80 C22,81.7 20,81.7 20,80 Z"/>
+
+</vector>
